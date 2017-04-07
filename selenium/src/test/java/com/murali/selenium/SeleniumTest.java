@@ -6,7 +6,7 @@ import org.junit.Test;
 
 /**
  * Simple Test class 
- * @author madhavi
+ * @author madhavi d
  *
  */
 public class SeleniumTest  {
