@@ -10,7 +10,7 @@ public class SeleniumTest  {
 	@Test
     public  void testRun() {
     	SeleniumTestRunner runner = new SeleniumTestRunner();
-    	Assert.assertTrue(runner.run());
+    	Assert.assertFalse(runner.run());
     	
     }
 }
