@@ -17,4 +17,11 @@ public class SeleniumTest  {
     	Assert.assertTrue(runner.run());
     	
     }
+	
+	@Test
+    public  void testRun2() {
+    	SeleniumTestRunner runner = new SeleniumTestRunner();
+    	Assert.assertTrue(runner.run());
+    	
+    }
 }

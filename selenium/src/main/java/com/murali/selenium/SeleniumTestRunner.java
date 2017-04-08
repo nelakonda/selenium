@@ -31,7 +31,7 @@ public class SeleniumTestRunner  {
         element.submit();
 
         // Check the title of the page
-        System.out.println("Page title is: " + driver.getTitle());
+        System.out.println("Test Page title is: " + driver.getTitle());
         
         // Google's search is rendered dynamically with JavaScript.
         // Wait for the page to load, timeout after 10 seconds
